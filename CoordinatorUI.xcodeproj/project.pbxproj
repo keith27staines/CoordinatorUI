@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5365F9F22AD2992500180648 /* CoordinatorUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365F9F12AD2992500180648 /* CoordinatorUIApp.swift */; };
-		5365F9F42AD2992500180648 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365F9F32AD2992500180648 /* ContentView.swift */; };
 		5365F9F62AD2992600180648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5365F9F52AD2992600180648 /* Assets.xcassets */; };
 		5365F9F92AD2992600180648 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5365F9F82AD2992600180648 /* Preview Assets.xcassets */; };
 		5365FA032AD2992600180648 /* CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365FA022AD2992600180648 /* CoordinatorUITests.swift */; };
 		5365FA0D2AD2992600180648 /* CoordinatorUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365FA0C2AD2992600180648 /* CoordinatorUIUITests.swift */; };
 		5365FA0F2AD2992600180648 /* CoordinatorUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365FA0E2AD2992600180648 /* CoordinatorUIUITestsLaunchTests.swift */; };
+		5365FA1C2AD2995900180648 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365FA1B2AD2995900180648 /* CoordinatorView.swift */; };
+		5365FA1E2AD29A6800180648 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365FA1D2AD29A6800180648 /* Views.swift */; };
+		5365FA202AD29B4600180648 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365FA1F2AD29B4600180648 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		5365F9EE2AD2992500180648 /* CoordinatorUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5365F9F12AD2992500180648 /* CoordinatorUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorUIApp.swift; sourceTree = "<group>"; };
-		5365F9F32AD2992500180648 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5365F9F52AD2992600180648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5365F9F82AD2992600180648 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5365F9FE2AD2992600180648 /* CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		5365FA082AD2992600180648 /* CoordinatorUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5365FA0C2AD2992600180648 /* CoordinatorUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorUIUITests.swift; sourceTree = "<group>"; };
 		5365FA0E2AD2992600180648 /* CoordinatorUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5365FA1B2AD2995900180648 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		5365FA1D2AD29A6800180648 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		5365FA1F2AD29B4600180648 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				5365F9F12AD2992500180648 /* CoordinatorUIApp.swift */,
-				5365F9F32AD2992500180648 /* ContentView.swift */,
+				5365FA1F2AD29B4600180648 /* Coordinator.swift */,
+				5365FA1B2AD2995900180648 /* CoordinatorView.swift */,
+				5365FA1D2AD29A6800180648 /* Views.swift */,
 				5365F9F52AD2992600180648 /* Assets.xcassets */,
 				5365F9F72AD2992600180648 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5365F9F42AD2992500180648 /* ContentView.swift in Sources */,
+				5365FA1E2AD29A6800180648 /* Views.swift in Sources */,
+				5365FA202AD29B4600180648 /* Coordinator.swift in Sources */,
+				5365FA1C2AD2995900180648 /* CoordinatorView.swift in Sources */,
 				5365F9F22AD2992500180648 /* CoordinatorUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
